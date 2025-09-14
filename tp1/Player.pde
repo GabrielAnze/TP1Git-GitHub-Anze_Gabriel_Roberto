@@ -1,7 +1,7 @@
 class Player {
 float x, y;
 Player(float x0, float y0){ x = x0; y = y0; }
-//void update(){
+void update(){
 if (keyPressed) {
 if (keyCode == LEFT) x -= 5;
 if (keyCode == RIGHT) x += 5;
